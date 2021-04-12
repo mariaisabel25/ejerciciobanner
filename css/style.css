@@ -1,0 +1,39 @@
+body,main{
+    margin: 0;
+}
+
+.cajita{
+    height: 60vh;
+}
+.columna{
+    background-image: url("https://rcdn.rolloid.net/uploads/2016/09/21-fascinantes-imagenes-de-mamas-oso-con-sus-pequenos-oseznos-banner.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: rgba(0, 0, 0, 0,5);
+   
+}
+
+.columna div{
+    padding-top: 300px;
+    margin-left: 30px;
+    color:azure;
+    font-size: larger;
+}
+
+.columna div button{
+    width: 20%;
+    border: none;
+    color: goldenrod;
+    background-color: green;
+    padding: 5px 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+}
+
+.columna div button:hover{
+    color:green;
+    background-color: goldenrod;
+    cursor: pointer;
+    transform: translate(25px);
+}
